@@ -93,3 +93,39 @@
     transition: all 0.2s linear;
     background: #00BDD6;
 }
+
+.body-web {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    position: relative;
+}
+
+.body-left {
+    display: flex;
+    width: 10%;
+}
+
+.body-center {
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.body-right {
+    display: flex;
+    width: 10%;
+}
+
+.category {
+    color: #1e1e1e;
+    font-size: 18px;
+}
+
+.title {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -19.4%;
+    font-size: 25px;
+}
